@@ -1,1 +1,28 @@
-<router-outlet></router-outlet>
+<div class="container is-fluid">
+  <div class="notification container-box">
+      
+      <div class="tile is-ancestor">
+          <div class="tile is-vertical">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification is-warning">
+                    <sd-user-on></sd-user-on>
+                </article>
+                <article class="tile is-child notification is-warning">
+                  <sd-create-post></sd-create-post>
+                </article>
+              </div>
+            </div>
+
+          </div>
+          <div class="tile is-parent is-8">
+            <article class="tile is-child notification is-success">
+              <div class="content">
+  
+                <sd-time-line-posts></sd-time-line-posts>
+              </div>
+            </article>
+          </div>
+        </div>
+  </div>
+</div>
